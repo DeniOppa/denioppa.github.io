@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="DeniOppa — creator, streamer and entertainment agency in Korea.">
+<title>DeniOppa — Creator · Streamer · Agency</title>
+<style>
+:root{--bg:#05070a;--panel:#090c11;--line:#29303a;--text:#f6f7f8;--muted:#a2a8b0;--blue:#71a7ff;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 56px));margin:auto}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;position:absolute;top:0;left:0;right:0;z-index:5}
+.logo{font-size:20px;font-weight:800;letter-spacing:.14em}.nav{display:flex;gap:34px;font-size:12px}.nav a{opacity:.9}.nav a:hover{color:var(--blue)}
+.nav .active{border-bottom:1px solid #fff;padding-bottom:7px}.contact-top{border:1px solid #aaa;border-radius:9px;padding:10px 25px;font-size:12px}
+.hero{min-height:720px;position:relative;overflow:hidden;background:
+linear-gradient(90deg,rgba(2,4,8,.94) 0%,rgba(2,4,8,.58) 40%,rgba(2,4,8,.12) 72%,rgba(2,4,8,.9) 100%),
+linear-gradient(0deg,#05070a 0%,transparent 34%),url("assets/hero.jpg") center 24%/cover no-repeat}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%,rgba(20,83,170,.2) 58%,transparent 75%);pointer-events:none}
+.hero-content{position:relative;z-index:2;padding-top:185px;padding-bottom:70px}
+.hero h1{font-size:clamp(65px,9vw,128px);line-height:.82;letter-spacing:-.06em;margin:0 0 20px}
+.tagline{font-size:13px;letter-spacing:.35em;margin-bottom:22px}.sub{font-size:10px;letter-spacing:.25em;color:#d2d5d9;margin-bottom:30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{border:1px solid #c9cdd2;border-radius:999px;padding:12px 30px;font-size:11px;font-weight:700;letter-spacing:.06em}.btn.main{background:#fff;color:#05070a}
+.socials{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:-1px;position:relative;z-index:3}.social{border:1px solid var(--line);background:rgba(7,10,15,.92);padding:18px 16px;min-height:76px}.social small{display:block;font-size:9px;letter-spacing:.12em;color:#8d949d;margin-bottom:8px}.social strong{font-size:12px;letter-spacing:.06em}
+section{padding:72px 0;border-bottom:1px solid #1b2027}.eyebrow{color:#78aefc;font-size:10px;letter-spacing:.28em;margin-bottom:9px}.title{font-size:42px;letter-spacing:-.04em;margin:0 0 12px}.copy{color:#b9bec5;font-size:13px;line-height:1.7;max-width:560px}.about{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center}.photos{position:relative;height:330px}.photo{position:absolute;border:1px solid #bfc5cb;padding:5px;background:#080a0e}.photo img{display:block;width:100%;height:100%;object-fit:cover}.p1{width:210px;height:250px;left:8%;top:28px;transform:rotate(-8deg)}.p2{width:220px;height:250px;left:31%;top:5px;transform:rotate(3deg);z-index:2}.p3{width:210px;height:250px;left:57%;top:45px;transform:rotate(8deg)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.feature{height:210px;border:1px solid #252c34;border-radius:7px;overflow:hidden;position:relative;background:#10151c}.feature img{width:100%;height:100%;object-fit:cover;opacity:.7;transition:.3s}.feature:hover img{transform:scale(1.04);opacity:.9}.feature:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#05070a)}.feature-content{position:absolute;z-index:2;left:18px;right:18px;bottom:17px}.feature h3{margin:0 0 5px;font-size:16px}.feature p{margin:0;color:#c3c8ce;font-size:10px}
+.agency{min-height:190px;border:1px solid #252c34;border-radius:7px;overflow:hidden;position:relative;padding:32px;margin-top:14px;background:linear-gradient(90deg,rgba(4,7,11,.98) 0%,rgba(4,7,11,.85) 48%,rgba(4,7,11,.25)),url("assets/agency.jpg") center/cover}.agency h2{font-size:27px;letter-spacing:.03em;margin:0 0 8px}.agency p{max-width:540px;color:#c0c5cb;font-size:11px;line-height:1.6}.agency .btn{display:inline-block;padding:9px 20px;margin-top:8px}
+.support{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.support .btn{min-width:150px;text-align:center}
+footer{padding:24px 0;color:#6e747c;font-size:10px;display:flex;justify-content:space-between}
+@media(max-width:800px){.wrap{width:calc(100% - 30px)}.nav{display:none}.hero{min-height:690px;background-position:55% 25%}.hero-content{padding-top:145px}.socials{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr;gap:25px}.photos{height:270px}.cards{grid-template-columns:1fr}.feature{height:190px}.agency{padding:25px}.title{font-size:36px}.contact-top{padding:8px 17px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="logo" href="#">DENIOPPA</a><div class="nav"><a class="active" href="#">Home</a><a href="#about">About</a><a href="#platforms">Platforms</a><a href="#agency">Agency</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div><a class="contact-top" href="mailto:team@denioppa.com">Contact</a></nav>
+</div>
+
+<header class="hero"><div class="wrap hero-content">
+<div class="tagline">CREATOR &nbsp;&nbsp; STREAMER &nbsp;&nbsp; AGENCY</div>
+<h1>DENIOPPA</h1><div class="sub">LIFE IN KOREA &nbsp;/&nbsp; GAMING &nbsp;/&nbsp; TRAVEL &nbsp;/&nbsp; MUSIC &nbsp;/&nbsp; MORE</div>
+<div class="actions"><a class="btn main" href="#gallery">WATCH MY VIDEOS</a><a class="btn" href="#platforms">FOLLOW ME</a></div>
+</div></header>
+
+<div class="wrap"><div id="platforms" class="socials">
+<a class="social" href="https://www.tiktok.com/@denioppa_official"><small>TIKTOK</small><strong>FOLLOW →</strong></a>
+<a class="social" href="https://www.youtube.com/"><small>YOUTUBE</small><strong>SUBSCRIBE →</strong></a>
+<a class="social" href="https://www.instagram.com/denioppa_official/"><small>INSTAGRAM</small><strong>FOLLOW →</strong></a>
+<a class="social" href="https://www.twitch.tv/denioppa"><small>TWITCH</small><strong>FOLLOW →</strong></a>
+<a class="social" href="https://kick.com/denioppa"><small>KICK</small><strong>FOLLOW →</strong></a>
+<a class="social" href="https://t.me/denioppa_official"><small>TELEGRAM</small><strong>JOIN →</strong></a>
+</div></div>
+
+<section id="about"><div class="wrap about"><div><div class="eyebrow">ABOUT ME</div><h2 class="title">DENIOPPA</h2><p class="copy">Content creator, streamer, and entrepreneur based in Korea. I share my life, gaming, travel, fitness and more with people around the world. Let's enjoy this journey together!</p><a class="btn" href="#contact" style="display:inline-block;margin-top:18px">MORE ABOUT ME</a></div><div class="photos"><div class="photo p1"><img src="assets/portrait.jpg"></div><div class="photo p2"><img src="assets/hero.jpg"></div><div class="photo p3"><img src="assets/seoul.jpg"></div></div></div></section>
+
+<section id="gallery"><div class="wrap"><div class="eyebrow">FEATURED CONTENT</div><div class="cards">
+<a class="feature" href="#"><img src="assets/gaming.jpg"><div class="feature-content"><h3>GAMING</h3><p>Game streams, highlights and more</p></div></a>
+<a class="feature" href="#"><img src="assets/travel.jpg"><div class="feature-content"><h3>TRAVEL</h3><p>Exploring Korea and around the world</p></div></a>
+<a class="feature" href="#"><img src="assets/fitness.jpg"><div class="feature-content"><h3>FITNESS</h3><p>Discipline. Progress. Better Me.</p></div></a>
+</div>
+<div id="agency" class="agency"><div class="eyebrow">DENIOPPA ENTERTAINMENT</div><h2>DENIOPPA ENTERTAINMENT</h2><p>CREATOR AGENCY / TIKTOK LIVE / GLOBAL TALENT<br>We support and work with talented streamers and creators around the world.</p><a class="btn" href="mailto:team@denioppa.com">LEARN MORE</a></div></div></section>
+
+<section id="contact"><div class="wrap"><div class="eyebrow">SUPPORT</div><p class="copy">Your support helps create better content.</p><div class="support"><a class="btn main" href="https://www.buymeacoffee.com/">Buy Me a Coffee</a><a class="btn" href="https://ko-fi.com/">Ko-fi</a><a class="btn" href="https://streamelements.com/">StreamElements</a><a class="btn" href="mailto:team@denioppa.com">PayPal</a></div></div></section>
+
+<div class="wrap"><footer><span>DENIOPPA</span><span>Privacy &nbsp; | &nbsp; Terms &nbsp; | &nbsp; Contact &nbsp; | &nbsp; © 2026 DeniOppa</span></footer></div>
+</body></html>
